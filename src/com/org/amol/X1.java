@@ -23,7 +23,7 @@ public class X1
 		
 				WebElement password= driver.findElement(By.id("pass"));
 				password.sendKeys("@Amol1988");
-				
+				System.out.println("hello");
 				WebElement loginButton= driver.findElement(By.id("loginbutton"));
 				loginButton.click();
 				
